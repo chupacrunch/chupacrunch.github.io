@@ -39,60 +39,31 @@
 		</div>
 	</nav>
 
-
-
-
-	<section class="site-hero" style="background-image: url(images/bg3v1.png);" id="section-home" data-stellar-background-ratio="0.5">
+	<section class="site-hero" style="background-image: url(images/bg1v2.jpg);" id="section-home" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row intro-text align-items-center justify-content-center">
 				<div class="col-md-10 text-center pt-5">
 
 					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Daphne Wong</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">UIUX and Graphic Designer</strong>
+					<strong class="d-block text-white text-uppercase letter-spacing"> UIUX and Graphic Designer</strong>
 
 				</div>
 			</div>
 		</div>
-	</section> <!-- section -->
+	</section> 
 
-
-
-	<section class="site-section" style="background-image: url(images/bg1v1.png);" id="section-about">
-		<div class="container">
-			<div class="row mb-5 align-items-center">
-				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-					<img src="images/Profile_Pic.JPG" alt="Image placeholder" class="img-fluid">
-				</div>
-				<div class="col-lg-5 pl-lg-5">
-					<div class="section-heading">
-						<h2>⚡About <strong>Me</strong></h2>
-					</div>
-					<p class="lead">Hello! I'm Daphne, a final year undergraduate from NUS trying to turn my aspirations into reality 🌟</p>
-
-					<p class="mb-5">  
-						This site hosts my UI/UX case studies and design works, hope you enjoy viewing it! 
-					</p>
-				
-
-					<p>
-						<a href="images/Resume.pdf" class="btn btn-secondary px-4 py-2 btn-sm">Download Resume</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section class="site-section" style="background-image: url(images/bg2v1.png);" id="section-portfolio">
+	<section class="site-section" style="background-image: url(images/bg2v2.jpg);" id="section-portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
 					<h2>Featured <strong>Portfolio</strong></h2>
 				</div>
 			</div>
+
 			<div class="filters">
 				<ul>
-					<li class="active" data-filter="*">All</li>
+					<!--<li class="active" data-filter="*">All</li>-->
+					<li class="active" data-filter=".featured">Featured</li>
 					<li data-filter=".uiux">UIUX Design</li>
 					<li data-filter=".graphic">Graphic Design</li>
 				</ul>
@@ -100,21 +71,8 @@
 
 			<div class="filters-content">
 				<div class="row grid">
-					<!--<div class="single-portfolio col-sm-4 all uiux">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<a href = "https://www.behance.net/gallery/197665489/Amazon-Redesign-Case-Study">
-									<img class="image img-fluid" src="images/amazon.jpg" alt="">
-								</a>
-							</div>                                 
-						</div>
-						<div class="p-inner">
-							<h4>Amazon Redesign Case Study</h4>
-							<div class="cat">UIUX Design</div>
-						</div>        
-					</div>-->
-					<div class="single-portfolio col-sm-4 all uiux">
+
+					<div class="single-portfolio col-sm-4 all featured uiux">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
@@ -124,25 +82,29 @@
 							</div>                                 
 						</div>
 						<div class="p-inner">
-							<h4>McDonald's Mobile App Case Study</h4>
+							<h4>McDonald's Mobile App Case Study</h4> 
 							<div class="cat">UIUX Design</div>
 						</div>        
 					</div>
-					<div class="single-portfolio col-sm-4 all graphic">
+
+					<div class="single-portfolio col-sm-4 all featured uiux ">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<a href = "https://www.behance.net/gallery/185695291/Fave-Singapore-Graphic-Designs">
-									<img class="image img-fluid" src="images/cover_fave.jpg" alt="">
+								<a href = "https://www.behance.net/gallery/216419057/Passion-Produce-Mobile-App?">
+									<img class="image img-fluid" src="images/cover_passionp.jpg" alt="">
 								</a>
 							</div>                                 
 						</div>
 						<div class="p-inner">
-							<h4>Fave Singapore Graphic Designs</h4>
-							<div class="cat">Graphic Design</div>
+							<h4>Passion Produce Mobile App</h4> 
+							<div class="cat">UIUX Design</div>
 						</div>        
 					</div>
-					<div class="single-portfolio col-sm-4 all graphic">
+
+
+
+					<div class="single-portfolio col-sm-4 all featured graphic">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
@@ -155,154 +117,200 @@
 							<h4>Edible Garden City Magazine</h4>
 							<div class="cat">Graphic Design</div>
 						</div>        
+					</div>        
+
+					<div class="single-portfolio col-sm-4 all graphic" style="display:none;">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<a href = "https://www.behance.net/gallery/185695291/Fave-Singapore-Graphic-Designs">
+									<img class="image img-fluid" src="images/cover_fave.jpg" alt="">
+								</a>
+							</div>                                 
+						</div>
+						<div class="p-inner">
+							<h4>Fave Singapore Graphic Designs</h4>
+							<div class="cat">Graphic Design</div>
+						</div>
 					</div>
+
+					<div class="single-portfolio col-sm-4 all uiux" style="display:none;">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<a href = "https://www.behance.net/gallery/197665489/Amazon-Redesign-Case-Study">
+									<img class="image img-fluid" src="images/amazon.jpg" alt="">
+								</a>
+							</div>                                 
+						</div>
+						<div class="p-inner">
+							<h4>Amazon Website Redesign</h4> 
+							<div class="cat">UIUX Design</div>
+						</div>        
+					</div>
+
+					<div class="single-portfolio col-sm-4 all uiux" style="display:none;">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<a href = "https://www.behance.net/gallery/208481249/Volunteergovsg-Redesign-Case-Study">
+									<img class="image img-fluid" src="images/Cover_sgcares.jpg" alt="">
+								</a>
+							</div>                                 
+						</div>
+						<div class="p-inner">
+							<h4>Volunteer.sg Website Redesign</h4> 
+							<div class="cat">UIUX Design</div>
+						</div>        
+					</div>
+	
 				</div>
 			</div>
+
+
+
 		</div>
 	</section>
+
 	<!-- .section -->
 
-	<!--
-	<section class="site-section " id="section-resume">
+	
+	<section class="site-section" id="section-blog" style="background-image: url(images/bg3v2.jpg);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
-						<h2>My <strong>Resume</strong></h2>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<h2 class="mb-5">Experience</h2>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> Aug - Oct 2023</span>
-						<h3>Product Design Intern</h3>
-						<p>• Created high-fidelity mockups and interactive prototypes using Figma to visualize and communicate design concepts effectively</p>
-						<p>• Conducted user research and interviews to gather valuable insights and feedback for iterative design improvements</p>
-						<p>• Presented case-studies that highlighted the use of user-centered design principals</p>
-						<span class="school">Fave Singapore</span>
-					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> May - Oct 2023</span>
-						<h3>Graphic Design Intern</h3>
-						<p>• Created eye-catching social media visuals, hero banners and promotional materials, contributing to increased brand visibility and engagement.</p>
-						<p>• Executed various campaigns and projects from concept to completion whilst ensuring alignment with company brand guidelines and messaging.</p>
-						<p>• Participated in brainstorming sessions, offering creative ideas and design concepts to supporting marketing initiatives.</p>
-						<span class="school">Fave Singapore</span>
-					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> May - Aug 2022</span>
-						<h3>Educator Intern</h3>
-						<p>• Empowered primary school students with the ability to code simple games and animations independently </p>
-						<p>• Maximised the learning of students by tailoring content and teaching styles to their unique learning needs </p>
-						<p>• Curated Youtube videos for students to learn techical coding techniques online</p>
-						<span class="school">Coding Lab Singapore</span>
-					</div>
-
-				</div>
-				<div class="col-md-6">
-
-
-					<h2 class="mb-5">Education</h2>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> Aug 2021 - May 2025</span>
-						<h3>Bachelor's of Social Science</h3>
-						<p>• Major: Communication and New Media</p>
-						<p>• Minor: Interactive Media Design</p>
-						<p>Alongside my minor in Interactive Media Design, I have dabbled in numerous tracks in both Communications and Comuter Science.
-							For example, UIUX Design, Graphic Design, Front End Development and Artifical Intelligence, amongst others
-						</p>
-						<span class="school">National University of Singapore</span>
-					</div>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> Jan 2019 - Dec 2020</span>
-						<h3>A-Level</h3>
-						<p>• H2 Phyics, Chemistry, Mathematics & H1 Economics</p>
-						<span class="school">Anglo Chinese Junior College</span>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- .section -->
-
-
-
-<!--<section class="site-section">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md-12">
-					<div class="section-heading text-center">
-						<h2>Client <strong>Testimonial</strong></h2>
+						<h2>UIUX <strong>Case Studies</strong></h2>
 					</div>
 				</div>
 			</div>
+
 			<div class="row">
-				<div class="col-md-6">
 
-					<div class="block-47 d-flex mb-5">
-						<div class="block-47-image">
-							<img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid">
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.behance.net/gallery/180665175/McDonalds-Mobile-App-Case-Study">
+							<img src="images/Mcdonalds.jpg" alt="Image placeholder" class="img-fluid">
+						</a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.behance.net/gallery/180665175/McDonalds-Mobile-App-Case-Study">Mcdonald's Mobile app Redesign</a></h3>
+							<p class="mb-4">Redesigning the Mcdonald's app </p>
+							<div class="meta">
+								<span class="icon-calendar"></span> 2023
+								<span class="icon-heart"></span> Research, Design
+							</div>
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
 					</div>
-
-				</div>
-				<div class="col-md-6">
-
-					<div class="block-47 d-flex mb-5">
-						<div class="block-47-image">
-							<img src="images/person_2.jpg" alt="Image placeholder" class="img-fluid">
-						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
-					</div>
-
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="#"><img src="images/cover_passionp.jpg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.behance.net/gallery/216419057/Passion-Produce-Mobile-App?">Passion Produce</a></h3>
+							<p class="mb-4">
+								Creating an online marketplace for local produce
 
-					<div class="block-47 d-flex mb-5">
-						<div class="block-47-image">
-							<img src="images/person_3.jpg" alt="Image placeholder" class="img-fluid">
+								<div class="btn btn-outline-info">
+									<a href="https://docs.google.com/document/d/11vCgc3KpXY4Jb9gGqBjGWW6M4WeUtkCNyEeic4ooLlw/edit?usp=sharing">
+										Full Report
+									</a>
+								</div>
+								<div class="btn btn-outline-info">
+									<a href="https://www.figma.com/proto/6avBpgmueDb5UxfepdrEsQ/PassionProduce?page-id=260%3A2169&node-id=260-5665&viewport=-920%2C123%2C0.18&t=ZUShliKrtay4K56K-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=260%3A5665">
+										Prototype
+									</a>
+								</div>
+
+							</p>
+							<div class="meta">
+
+								<span class="icon-calendar"></span> 2024
+								<span class="icon-heart"></span> Research, Design
+							</div>
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
 					</div>
-
 				</div>
-				<div class="col-md-6">
 
-					<div class="block-47 d-flex mb-5">
-						<div class="block-47-image">
-							<img src="images/person_4.jpg" alt="Image placeholder" class="img-fluid">
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.behance.net/gallery/197665489/Amazon-Redesign-Case-Study">
+							<img src="images/amazon.jpg" alt="Image placeholder" class="img-fluid">
+						</a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.behance.net/gallery/197665489/Amazon-Redesign-Case-Study">Amazon Website Redesign</a></h3>
+							<p class="mb-4">Redesigning the Amazon website</p>
+
+							<div class="meta">
+								<span class="icon-calendar"></span> 2024
+								<span class="icon-heart"></span> Research, Design
+							</div>
 						</div>
-						<blockquote class="block-47-quote">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-							<cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ Inc.</a></cite>
-						</blockquote>
 					</div>
-
 				</div>
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="https://www.behance.net/gallery/208481249/Volunteergovsg-Redesign-Case-Study">
+							<img src="images/Cover_sgcares.jpg" alt="Image placeholder" class="img-fluid">
+						</a>
+						<div class="blog-entry-text">
+							<h3><a href="https://www.behance.net/gallery/208481249/Volunteergovsg-Redesign-Case-Study">Volunteer.sg Website Redesign</a></h3>
+							<p class="mb-4">Created for the Govtech TAP programme 2024</p>
+
+							<div class="meta">
+								<span class="icon-calendar"></span> 2024
+								<span class="icon-heart"></span> Research planning, Design
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="blog-entry">
+						<a href="#"><img src="images/cover_procrasti_pet.jpg" alt="Image placeholder" class="img-fluid"></a>
+						<div class="blog-entry-text">
+							<h3><a href="#">Procrasti-Pet</a></h3>
+							<p class="mb-4">Utilising gamification to encourage better habit tracking and forming for procrastinators</p>
+
+							<div class="meta">
+								<span class="icon-calendar"></span> 2024
+								<span class="icon-heart"></span> Design
+							</div>
+						</div>
+					</div>
+				</div>-->
 
 			</div>
 		</div>
-	</section>-->
+	</section>
 
 
-	<section class="site-section" id="section-contact">
+
+	<section class="site-section" style="background-image: url(images/bg2v2.jpg);" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+					<img src="images/Profile_Pic.JPG" alt="Image placeholder" class="img-fluid">
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>⚡About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">Hello! I'm Daphne, a final year undergraduate from NUS trying to turn my aspirations into reality 🌟</p>
+
+					<p class="mb-5">  
+						This site hosts my UI/UX case studies and design works, hope you enjoy viewing it!
+					</p>
+				
+
+					<p>
+						<a href="images/Resume.pdf" class="btn btn-secondary px-4 py-2 btn-sm">Download Resume</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="site-section" id="section-contact"style="background-image: url(images/bg4v2.jpg);">
 		<footer class="site-footer">
 			<div class="container">
 				<div class="row mb-5">
@@ -342,10 +350,6 @@
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
-
-	<!-- Google Map -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    	<script src="js/google-map.js"></script> -->
 
     </body>
     </html>
